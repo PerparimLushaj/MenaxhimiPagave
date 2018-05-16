@@ -1,0 +1,2439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRuaj1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 150</value>
+  </data>
+  <data name="btnRuaj1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnRuaj1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnRuaj1.Text" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="&gt;&gt;btnRuaj1.Name" xml:space="preserve">
+    <value>btnRuaj1</value>
+  </data>
+  <data name="&gt;&gt;btnRuaj1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnRuaj1.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;btnRuaj1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPaga.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 114</value>
+  </data>
+  <data name="txtPaga.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="txtPaga.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtPaga.Name" xml:space="preserve">
+    <value>txtPaga</value>
+  </data>
+  <data name="&gt;&gt;txtPaga.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtPaga.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;txtPaga.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelX24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 111</value>
+  </data>
+  <data name="labelX24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <data name="labelX24.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelX24.Text" xml:space="preserve">
+    <value>Paga:</value>
+  </data>
+  <data name="&gt;&gt;labelX24.Name" xml:space="preserve">
+    <value>labelX24</value>
+  </data>
+  <data name="&gt;&gt;labelX24.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX24.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;labelX24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtNrLlogaris.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 80</value>
+  </data>
+  <data name="txtNrLlogaris.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="txtNrLlogaris.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtNrLlogaris.Name" xml:space="preserve">
+    <value>txtNrLlogaris</value>
+  </data>
+  <data name="&gt;&gt;txtNrLlogaris.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtNrLlogaris.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;txtNrLlogaris.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelX21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 77</value>
+  </data>
+  <data name="labelX21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="labelX21.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelX21.Text" xml:space="preserve">
+    <value>Numri Llogaris:</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Name" xml:space="preserve">
+    <value>labelX21</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;labelX21.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dtiDataMbarimitPagesa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 50</value>
+  </data>
+  <data name="dtiDataMbarimitPagesa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 20</value>
+  </data>
+  <data name="dtiDataMbarimitPagesa.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtiDataMbarimitPagesa.Name" xml:space="preserve">
+    <value>dtiDataMbarimitPagesa</value>
+  </data>
+  <data name="&gt;&gt;dtiDataMbarimitPagesa.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dtiDataMbarimitPagesa.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;dtiDataMbarimitPagesa.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dtiDataFillimitPagesa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 18</value>
+  </data>
+  <data name="dtiDataFillimitPagesa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="dtiDataFillimitPagesa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtiDataFillimitPagesa.Name" xml:space="preserve">
+    <value>dtiDataFillimitPagesa</value>
+  </data>
+  <data name="&gt;&gt;dtiDataFillimitPagesa.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dtiDataFillimitPagesa.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;dtiDataFillimitPagesa.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelX23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 47</value>
+  </data>
+  <data name="labelX23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="labelX23.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelX23.Text" xml:space="preserve">
+    <value>Data Mbarimit:</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Name" xml:space="preserve">
+    <value>labelX23</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;labelX23.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelX22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 18</value>
+  </data>
+  <data name="labelX22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="labelX22.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelX22.Text" xml:space="preserve">
+    <value>Data Fillimit:</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Name" xml:space="preserve">
+    <value>labelX22</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;labelX22.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dgvPagesa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 187</value>
+  </data>
+  <data name="dgvPagesa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 158</value>
+  </data>
+  <data name="dgvPagesa.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvPagesa.Name" xml:space="preserve">
+    <value>dgvPagesa</value>
+  </data>
+  <data name="&gt;&gt;dgvPagesa.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.DataGridViewX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dgvPagesa.Parent" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;dgvPagesa.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="gbVetit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 86</value>
+  </data>
+  <data name="gbVetit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>837, 351</value>
+  </data>
+  <data name="gbVetit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gbVetit.Text" xml:space="preserve">
+    <value>Vetit</value>
+  </data>
+  <data name="gbVetit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gbVetit.Name" xml:space="preserve">
+    <value>gbVetit</value>
+  </data>
+  <data name="&gt;&gt;gbVetit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbVetit.Parent" xml:space="preserve">
+    <value>sideNavPanel4</value>
+  </data>
+  <data name="&gt;&gt;gbVetit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 8</value>
+  </data>
+  <data name="labelX20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="labelX20.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelX20.Text" xml:space="preserve">
+    <value>Zgjedh Pozitën:</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Name" xml:space="preserve">
+    <value>labelX20</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Parent" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;labelX20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdbAsisten.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbAsisten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 12</value>
+  </data>
+  <data name="rdbAsisten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="rdbAsisten.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rdbAsisten.Text" xml:space="preserve">
+    <value>Asistent</value>
+  </data>
+  <data name="&gt;&gt;rdbAsisten.Name" xml:space="preserve">
+    <value>rdbAsisten</value>
+  </data>
+  <data name="&gt;&gt;rdbAsisten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbAsisten.Parent" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;rdbAsisten.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rdbPunetorNdihmes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbPunetorNdihmes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 13</value>
+  </data>
+  <data name="rdbPunetorNdihmes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="rdbPunetorNdihmes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rdbPunetorNdihmes.Text" xml:space="preserve">
+    <value>Punetor Ndihmes</value>
+  </data>
+  <data name="&gt;&gt;rdbPunetorNdihmes.Name" xml:space="preserve">
+    <value>rdbPunetorNdihmes</value>
+  </data>
+  <data name="&gt;&gt;rdbPunetorNdihmes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbPunetorNdihmes.Parent" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;rdbPunetorNdihmes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdbReferent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbReferent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 12</value>
+  </data>
+  <data name="rdbReferent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="rdbReferent.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdbReferent.Text" xml:space="preserve">
+    <value>Referent</value>
+  </data>
+  <data name="&gt;&gt;rdbReferent.Name" xml:space="preserve">
+    <value>rdbReferent</value>
+  </data>
+  <data name="&gt;&gt;rdbReferent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbReferent.Parent" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;rdbReferent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rdbProfesor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbProfesor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 11</value>
+  </data>
+  <data name="rdbProfesor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="rdbProfesor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rdbProfesor.Text" xml:space="preserve">
+    <value>Profesor</value>
+  </data>
+  <data name="&gt;&gt;rdbProfesor.Name" xml:space="preserve">
+    <value>rdbProfesor</value>
+  </data>
+  <data name="&gt;&gt;rdbProfesor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbProfesor.Parent" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;rdbProfesor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 9</value>
+  </data>
+  <data name="groupPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>625, 72</value>
+  </data>
+  <data name="groupPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupPanel4.Text" xml:space="preserve">
+    <value>Pozita</value>
+  </data>
+  <data name="&gt;&gt;groupPanel4.Name" xml:space="preserve">
+    <value>groupPanel4</value>
+  </data>
+  <data name="&gt;&gt;groupPanel4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;groupPanel4.Parent" xml:space="preserve">
+    <value>sideNavPanel4</value>
+  </data>
+  <data name="&gt;&gt;groupPanel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sideNavPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 36</value>
+  </data>
+  <data name="sideNavPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 443</value>
+  </data>
+  <data name="sideNavPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel4.Name" xml:space="preserve">
+    <value>sideNavPanel4</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel4.Parent" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnKrijo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 92</value>
+  </data>
+  <data name="btnKrijo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnKrijo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnKrijo.Text" xml:space="preserve">
+    <value>I Ri</value>
+  </data>
+  <data name="&gt;&gt;btnKrijo.Name" xml:space="preserve">
+    <value>btnKrijo</value>
+  </data>
+  <data name="&gt;&gt;btnKrijo.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnKrijo.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnKrijo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtUdheheqesiDepartamentit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUdheheqesiDepartamentit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 48</value>
+  </data>
+  <data name="txtUdheheqesiDepartamentit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 20</value>
+  </data>
+  <data name="txtUdheheqesiDepartamentit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtUdheheqesiDepartamentit.Name" xml:space="preserve">
+    <value>txtUdheheqesiDepartamentit</value>
+  </data>
+  <data name="&gt;&gt;txtUdheheqesiDepartamentit.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtUdheheqesiDepartamentit.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;txtUdheheqesiDepartamentit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtEmriDepartamentit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmriDepartamentit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 17</value>
+  </data>
+  <data name="txtEmriDepartamentit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 20</value>
+  </data>
+  <data name="txtEmriDepartamentit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtEmriDepartamentit.Name" xml:space="preserve">
+    <value>txtEmriDepartamentit</value>
+  </data>
+  <data name="&gt;&gt;txtEmriDepartamentit.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtEmriDepartamentit.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;txtEmriDepartamentit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnEditoDpt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 92</value>
+  </data>
+  <data name="btnEditoDpt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEditoDpt.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnEditoDpt.Text" xml:space="preserve">
+    <value>Edito</value>
+  </data>
+  <data name="&gt;&gt;btnEditoDpt.Name" xml:space="preserve">
+    <value>btnEditoDpt</value>
+  </data>
+  <data name="&gt;&gt;btnEditoDpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnEditoDpt.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnEditoDpt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRuajDept.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 92</value>
+  </data>
+  <data name="btnRuajDept.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRuajDept.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnRuajDept.Text" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="&gt;&gt;btnRuajDept.Name" xml:space="preserve">
+    <value>btnRuajDept</value>
+  </data>
+  <data name="&gt;&gt;btnRuajDept.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnRuajDept.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnRuajDept.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnFshijeDpt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 91</value>
+  </data>
+  <data name="btnFshijeDpt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnFshijeDpt.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnFshijeDpt.Text" xml:space="preserve">
+    <value>Fshije</value>
+  </data>
+  <data name="&gt;&gt;btnFshijeDpt.Name" xml:space="preserve">
+    <value>btnFshijeDpt</value>
+  </data>
+  <data name="&gt;&gt;btnFshijeDpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnFshijeDpt.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;btnFshijeDpt.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelX19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 48</value>
+  </data>
+  <data name="labelX19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="labelX19.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelX19.Text" xml:space="preserve">
+    <value>Udheheqesi Departamentit</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Name" xml:space="preserve">
+    <value>labelX19</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;labelX19.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelX18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 14</value>
+  </data>
+  <data name="labelX18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="labelX18.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX18.Text" xml:space="preserve">
+    <value>Emri Departamentit</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Name" xml:space="preserve">
+    <value>labelX18</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Parent" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;labelX18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 8</value>
+  </data>
+  <data name="groupPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 141</value>
+  </data>
+  <data name="groupPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupPanel3.Text" xml:space="preserve">
+    <value>Te dhenat</value>
+  </data>
+  <data name="&gt;&gt;groupPanel3.Name" xml:space="preserve">
+    <value>groupPanel3</value>
+  </data>
+  <data name="&gt;&gt;groupPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;groupPanel3.Parent" xml:space="preserve">
+    <value>sideNavPanel3</value>
+  </data>
+  <data name="&gt;&gt;groupPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvDepartamentet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 10</value>
+  </data>
+  <data name="dgvDepartamentet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 218</value>
+  </data>
+  <data name="dgvDepartamentet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvDepartamentet.Name" xml:space="preserve">
+    <value>dgvDepartamentet</value>
+  </data>
+  <data name="&gt;&gt;dgvDepartamentet.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.DataGridViewX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dgvDepartamentet.Parent" xml:space="preserve">
+    <value>groupPanel2</value>
+  </data>
+  <data name="&gt;&gt;dgvDepartamentet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 155</value>
+  </data>
+  <data name="groupPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 271</value>
+  </data>
+  <data name="groupPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupPanel2.Text" xml:space="preserve">
+    <value>Departamentet</value>
+  </data>
+  <data name="&gt;&gt;groupPanel2.Name" xml:space="preserve">
+    <value>groupPanel2</value>
+  </data>
+  <data name="&gt;&gt;groupPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;groupPanel2.Parent" xml:space="preserve">
+    <value>sideNavPanel3</value>
+  </data>
+  <data name="&gt;&gt;groupPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sideNavPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 36</value>
+  </data>
+  <data name="sideNavPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 443</value>
+  </data>
+  <data name="sideNavPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="sideNavPanel3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel3.Name" xml:space="preserve">
+    <value>sideNavPanel3</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel3.Parent" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtEmri1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmri1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 39</value>
+  </data>
+  <data name="txtEmri1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtEmri1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;txtEmri1.Name" xml:space="preserve">
+    <value>txtEmri1</value>
+  </data>
+  <data name="&gt;&gt;txtEmri1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtEmri1.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtEmri1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAnulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 120</value>
+  </data>
+  <data name="btnAnulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAnulo.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnAnulo.Text" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="&gt;&gt;btnAnulo.Name" xml:space="preserve">
+    <value>btnAnulo</value>
+  </data>
+  <data name="&gt;&gt;btnAnulo.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnAnulo.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnAnulo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 120</value>
+  </data>
+  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonX1.Text" xml:space="preserve">
+    <value>Ruaj Ndryshimet</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
+    <value>buttonX1</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbDepartamenti.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbDepartamenti.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 76</value>
+  </data>
+  <data name="cmbDepartamenti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 21</value>
+  </data>
+  <data name="cmbDepartamenti.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbDepartamenti.Name" xml:space="preserve">
+    <value>cmbDepartamenti</value>
+  </data>
+  <data name="&gt;&gt;cmbDepartamenti.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDepartamenti.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;cmbDepartamenti.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 76</value>
+  </data>
+  <data name="labelX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX3.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="labelX3.Text" xml:space="preserve">
+    <value>Departamenti</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Name" xml:space="preserve">
+    <value>labelX3</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbPozita.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbPozita.Items" xml:space="preserve">
+    <value>Profesor</value>
+  </data>
+  <data name="cmbPozita.Items1" xml:space="preserve">
+    <value>Asistent</value>
+  </data>
+  <data name="cmbPozita.Items2" xml:space="preserve">
+    <value>Referent</value>
+  </data>
+  <data name="cmbPozita.Items3" xml:space="preserve">
+    <value>Punetor Ndihmes</value>
+  </data>
+  <data name="cmbPozita.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 9</value>
+  </data>
+  <data name="cmbPozita.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 21</value>
+  </data>
+  <data name="cmbPozita.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbPozita.Name" xml:space="preserve">
+    <value>cmbPozita</value>
+  </data>
+  <data name="&gt;&gt;cmbPozita.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPozita.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;cmbPozita.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnIRi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 120</value>
+  </data>
+  <data name="btnIRi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnIRi.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnIRi.Text" xml:space="preserve">
+    <value>I Ri</value>
+  </data>
+  <data name="&gt;&gt;btnIRi.Name" xml:space="preserve">
+    <value>btnIRi</value>
+  </data>
+  <data name="&gt;&gt;btnIRi.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnIRi.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnIRi.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnEdito1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 120</value>
+  </data>
+  <data name="btnEdito1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEdito1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnEdito1.Text" xml:space="preserve">
+    <value>Edito</value>
+  </data>
+  <data name="&gt;&gt;btnEdito1.Name" xml:space="preserve">
+    <value>btnEdito1</value>
+  </data>
+  <data name="&gt;&gt;btnEdito1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnEdito1.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnEdito1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnnRuaj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 120</value>
+  </data>
+  <data name="btnnRuaj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnnRuaj.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnnRuaj.Text" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="&gt;&gt;btnnRuaj.Name" xml:space="preserve">
+    <value>btnnRuaj</value>
+  </data>
+  <data name="&gt;&gt;btnnRuaj.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnnRuaj.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnnRuaj.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dtiDitelindja.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtiDitelindja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 80</value>
+  </data>
+  <data name="dtiDitelindja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="dtiDitelindja.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtiDitelindja.Name" xml:space="preserve">
+    <value>dtiDitelindja</value>
+  </data>
+  <data name="&gt;&gt;dtiDitelindja.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dtiDitelindja.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;dtiDitelindja.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnFshije.Location" type="System.Drawing.Point, System.Drawing">
+    <value>738, 120</value>
+  </data>
+  <data name="btnFshije.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnFshije.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnFshije.Text" xml:space="preserve">
+    <value>Fshije</value>
+  </data>
+  <data name="&gt;&gt;btnFshije.Name" xml:space="preserve">
+    <value>btnFshije</value>
+  </data>
+  <data name="&gt;&gt;btnFshije.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnFshije.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnFshije.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtNrKontaktues.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtNrKontaktues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 40</value>
+  </data>
+  <data name="txtNrKontaktues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtNrKontaktues.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtNrKontaktues.Name" xml:space="preserve">
+    <value>txtNrKontaktues</value>
+  </data>
+  <data name="&gt;&gt;txtNrKontaktues.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtNrKontaktues.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtNrKontaktues.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dtiDataRegjistrimti.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtiDataRegjistrimti.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 39</value>
+  </data>
+  <data name="dtiDataRegjistrimti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="dtiDataRegjistrimti.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dtiDataRegjistrimti.Name" xml:space="preserve">
+    <value>dtiDataRegjistrimti</value>
+  </data>
+  <data name="&gt;&gt;dtiDataRegjistrimti.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dtiDataRegjistrimti.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;dtiDataRegjistrimti.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtEmail.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 8</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
+    <value>txtEmail</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtMbiemri.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMbiemri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 77</value>
+  </data>
+  <data name="txtMbiemri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtMbiemri.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemri.Name" xml:space="preserve">
+    <value>txtMbiemri</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemri.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemri.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemri.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelX12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 5</value>
+  </data>
+  <data name="labelX12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="labelX12.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="labelX12.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Name" xml:space="preserve">
+    <value>labelX12</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX12.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtNrIdentifikues.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtNrIdentifikues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 5</value>
+  </data>
+  <data name="txtNrIdentifikues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtNrIdentifikues.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNrIdentifikues.Name" xml:space="preserve">
+    <value>txtNrIdentifikues</value>
+  </data>
+  <data name="&gt;&gt;txtNrIdentifikues.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtNrIdentifikues.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtNrIdentifikues.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelX13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 40</value>
+  </data>
+  <data name="labelX13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="labelX13.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labelX13.Text" xml:space="preserve">
+    <value>Nr. Kontaktues</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Name" xml:space="preserve">
+    <value>labelX13</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelX15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 5</value>
+  </data>
+  <data name="labelX15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX15.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="labelX15.Text" xml:space="preserve">
+    <value>Pozita</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Name" xml:space="preserve">
+    <value>labelX15</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX15.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelX16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 36</value>
+  </data>
+  <data name="labelX16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="labelX16.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="labelX16.Text" xml:space="preserve">
+    <value>Data Regjistrimit</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Name" xml:space="preserve">
+    <value>labelX16</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX16.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelX14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 77</value>
+  </data>
+  <data name="labelX14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="labelX14.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="labelX14.Text" xml:space="preserve">
+    <value>Ditelindja</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Name" xml:space="preserve">
+    <value>labelX14</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX14.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 74</value>
+  </data>
+  <data name="labelX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>Mbiemri</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Name" xml:space="preserve">
+    <value>labelX2</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labelX10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 37</value>
+  </data>
+  <data name="labelX10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX10.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="labelX10.Text" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Name" xml:space="preserve">
+    <value>labelX10</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX10.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="labelX11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 2</value>
+  </data>
+  <data name="labelX11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX11.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="labelX11.Text" xml:space="preserve">
+    <value>Nr. Identifikues</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Name" xml:space="preserve">
+    <value>labelX11</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Parent" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX11.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="groupPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 4</value>
+  </data>
+  <data name="groupPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 169</value>
+  </data>
+  <data name="groupPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="groupPanel1.Text" xml:space="preserve">
+    <value>Te Dhenat</value>
+  </data>
+  <data name="&gt;&gt;groupPanel1.Name" xml:space="preserve">
+    <value>groupPanel1</value>
+  </data>
+  <data name="&gt;&gt;groupPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;groupPanel1.Parent" xml:space="preserve">
+    <value>sideNavPanel2</value>
+  </data>
+  <data name="&gt;&gt;groupPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtKerkoEmri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 191</value>
+  </data>
+  <data name="txtKerkoEmri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="txtKerkoEmri.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtKerkoEmri.Name" xml:space="preserve">
+    <value>txtKerkoEmri</value>
+  </data>
+  <data name="&gt;&gt;txtKerkoEmri.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtKerkoEmri.Parent" xml:space="preserve">
+    <value>sideNavPanel2</value>
+  </data>
+  <data name="&gt;&gt;txtKerkoEmri.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelX17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 188</value>
+  </data>
+  <data name="labelX17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="labelX17.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="labelX17.Text" xml:space="preserve">
+    <value>Kerko sipas emrit</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Name" xml:space="preserve">
+    <value>labelX17</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Parent" xml:space="preserve">
+    <value>sideNavPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelX17.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgvPunetoret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 226</value>
+  </data>
+  <data name="dgvPunetoret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 209</value>
+  </data>
+  <data name="dgvPunetoret.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;dgvPunetoret.Name" xml:space="preserve">
+    <value>dgvPunetoret</value>
+  </data>
+  <data name="&gt;&gt;dgvPunetoret.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.DataGridViewX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dgvPunetoret.Parent" xml:space="preserve">
+    <value>sideNavPanel2</value>
+  </data>
+  <data name="&gt;&gt;dgvPunetoret.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sideNavPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 36</value>
+  </data>
+  <data name="sideNavPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 443</value>
+  </data>
+  <data name="sideNavPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="sideNavPanel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel2.Name" xml:space="preserve">
+    <value>sideNavPanel2</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel2.Parent" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelX29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 24</value>
+  </data>
+  <data name="labelX29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX29.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelX29.Text" xml:space="preserve">
+    <value>Mbiemri</value>
+  </data>
+  <data name="&gt;&gt;labelX29.Name" xml:space="preserve">
+    <value>labelX29</value>
+  </data>
+  <data name="&gt;&gt;labelX29.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX29.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;labelX29.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtMbiemriRaport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="txtMbiemriRaport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtMbiemriRaport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemriRaport.Name" xml:space="preserve">
+    <value>txtMbiemriRaport</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemriRaport.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemriRaport.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;txtMbiemriRaport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMbiemri.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="lblMbiemri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 85</value>
+  </data>
+  <data name="lblMbiemri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 42</value>
+  </data>
+  <data name="lblMbiemri.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblMbiemri.Name" xml:space="preserve">
+    <value>lblMbiemri</value>
+  </data>
+  <data name="&gt;&gt;lblMbiemri.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblMbiemri.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;lblMbiemri.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelX28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="labelX28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 393</value>
+  </data>
+  <data name="labelX28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 42</value>
+  </data>
+  <data name="labelX28.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelX28.Text" xml:space="preserve">
+    <value>Paga Totale</value>
+  </data>
+  <data name="&gt;&gt;labelX28.Name" xml:space="preserve">
+    <value>labelX28</value>
+  </data>
+  <data name="&gt;&gt;labelX28.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX28.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;labelX28.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPagaTotale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="lblPagaTotale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 395</value>
+  </data>
+  <data name="lblPagaTotale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 42</value>
+  </data>
+  <data name="lblPagaTotale.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblPagaTotale.Name" xml:space="preserve">
+    <value>lblPagaTotale</value>
+  </data>
+  <data name="&gt;&gt;lblPagaTotale.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblPagaTotale.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;lblPagaTotale.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblEmri.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="lblEmri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 82</value>
+  </data>
+  <data name="lblEmri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 42</value>
+  </data>
+  <data name="lblEmri.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblEmri.Name" xml:space="preserve">
+    <value>lblEmri</value>
+  </data>
+  <data name="&gt;&gt;lblEmri.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblEmri.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;lblEmri.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelX27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="labelX27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 83</value>
+  </data>
+  <data name="labelX27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 42</value>
+  </data>
+  <data name="labelX27.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelX27.Text" xml:space="preserve">
+    <value>Mbiemri:</value>
+  </data>
+  <data name="&gt;&gt;labelX27.Name" xml:space="preserve">
+    <value>labelX27</value>
+  </data>
+  <data name="&gt;&gt;labelX27.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX27.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;labelX27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dgvRaporti.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 150</value>
+  </data>
+  <data name="dgvRaporti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 237</value>
+  </data>
+  <data name="dgvRaporti.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvRaporti.Name" xml:space="preserve">
+    <value>dgvRaporti</value>
+  </data>
+  <data name="&gt;&gt;dgvRaporti.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.DataGridViewX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;dgvRaporti.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;dgvRaporti.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbldfg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 21.75pt</value>
+  </data>
+  <data name="lbldfg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 82</value>
+  </data>
+  <data name="lbldfg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 42</value>
+  </data>
+  <data name="lbldfg.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbldfg.Text" xml:space="preserve">
+    <value>Emri:</value>
+  </data>
+  <data name="&gt;&gt;lbldfg.Name" xml:space="preserve">
+    <value>lbldfg</value>
+  </data>
+  <data name="&gt;&gt;lbldfg.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lbldfg.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;lbldfg.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelX26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 24</value>
+  </data>
+  <data name="labelX26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX26.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelX26.Text" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="&gt;&gt;labelX26.Name" xml:space="preserve">
+    <value>labelX26</value>
+  </data>
+  <data name="&gt;&gt;labelX26.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX26.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;labelX26.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtEmriRaport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="txtEmriRaport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtEmriRaport.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtEmriRaport.Name" xml:space="preserve">
+    <value>txtEmriRaport</value>
+  </data>
+  <data name="&gt;&gt;txtEmriRaport.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtEmriRaport.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;txtEmriRaport.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnKerkoRaport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 24</value>
+  </data>
+  <data name="btnKerkoRaport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 27</value>
+  </data>
+  <data name="btnKerkoRaport.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnKerkoRaport.Text" xml:space="preserve">
+    <value>Kerko</value>
+  </data>
+  <data name="&gt;&gt;btnKerkoRaport.Name" xml:space="preserve">
+    <value>btnKerkoRaport</value>
+  </data>
+  <data name="&gt;&gt;btnKerkoRaport.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnKerkoRaport.Parent" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;btnKerkoRaport.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="sideNavPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 36</value>
+  </data>
+  <data name="sideNavPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 443</value>
+  </data>
+  <data name="sideNavPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="sideNavPanel5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel5.Name" xml:space="preserve">
+    <value>sideNavPanel5</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel5.Parent" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelX7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 113</value>
+  </data>
+  <data name="labelX7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="labelX7.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="labelX7.Text" xml:space="preserve">
+    <value>NrPergjithshem</value>
+  </data>
+  <data name="labelX7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Name" xml:space="preserve">
+    <value>labelX7</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;labelX7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="labelX6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX6.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="labelX6.Text" xml:space="preserve">
+    <value>Elektronik</value>
+  </data>
+  <data name="labelX6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Name" xml:space="preserve">
+    <value>labelX6</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;labelX6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="labelX5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX5.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labelX5.Text" xml:space="preserve">
+    <value>Automatik</value>
+  </data>
+  <data name="labelX5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Name" xml:space="preserve">
+    <value>labelX5</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="labelX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelX4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="labelX4.Text" xml:space="preserve">
+    <value>Kompjuterik</value>
+  </data>
+  <data name="labelX4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Name" xml:space="preserve">
+    <value>labelX4</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblKompjuterik.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="lblKompjuterik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 3</value>
+  </data>
+  <data name="lblKompjuterik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblKompjuterik.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblKompjuterik.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblKompjuterik.Name" xml:space="preserve">
+    <value>lblKompjuterik</value>
+  </data>
+  <data name="&gt;&gt;lblKompjuterik.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblKompjuterik.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;lblKompjuterik.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblElektronike.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="lblElektronike.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 76</value>
+  </data>
+  <data name="lblElektronike.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblElektronike.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblElektronike.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblElektronike.Name" xml:space="preserve">
+    <value>lblElektronike</value>
+  </data>
+  <data name="&gt;&gt;lblElektronike.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblElektronike.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;lblElektronike.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblPergjithshem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 113</value>
+  </data>
+  <data name="lblPergjithshem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblPergjithshem.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblPergjithshem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblPergjithshem.Name" xml:space="preserve">
+    <value>lblPergjithshem</value>
+  </data>
+  <data name="&gt;&gt;lblPergjithshem.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblPergjithshem.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;lblPergjithshem.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAutomatik.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="lblAutomatik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 40</value>
+  </data>
+  <data name="lblAutomatik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblAutomatik.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblAutomatik.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblAutomatik.Name" xml:space="preserve">
+    <value>lblAutomatik</value>
+  </data>
+  <data name="&gt;&gt;lblAutomatik.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;lblAutomatik.Parent" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;lblAutomatik.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gpTedhenat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 142</value>
+  </data>
+  <data name="gpTedhenat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 275</value>
+  </data>
+  <data name="gpTedhenat.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="gpTedhenat.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gpTedhenat.Name" xml:space="preserve">
+    <value>gpTedhenat</value>
+  </data>
+  <data name="&gt;&gt;gpTedhenat.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;gpTedhenat.Parent" xml:space="preserve">
+    <value>sideNavPanel6</value>
+  </data>
+  <data name="&gt;&gt;gpTedhenat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlGrafikaDepartmentet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 142</value>
+  </data>
+  <data name="pnlGrafikaDepartmentet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 275</value>
+  </data>
+  <data name="pnlGrafikaDepartmentet.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="pnlGrafikaDepartmentet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlGrafikaDepartmentet.Name" xml:space="preserve">
+    <value>pnlGrafikaDepartmentet</value>
+  </data>
+  <data name="&gt;&gt;pnlGrafikaDepartmentet.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pnlGrafikaDepartmentet.Parent" xml:space="preserve">
+    <value>sideNavPanel6</value>
+  </data>
+  <data name="&gt;&gt;pnlGrafikaDepartmentet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 31</value>
+  </data>
+  <data name="labelX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="labelX1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>Zgjedh Grafikun:</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Name" xml:space="preserve">
+    <value>labelX1</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Parent" xml:space="preserve">
+    <value>gpGrafikat</value>
+  </data>
+  <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdbGrafikuDepartment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbGrafikuDepartment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="rdbGrafikuDepartment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 17</value>
+  </data>
+  <data name="rdbGrafikuDepartment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rdbGrafikuDepartment.Text" xml:space="preserve">
+    <value>Numri i punetoreve per secilin departament</value>
+  </data>
+  <data name="&gt;&gt;rdbGrafikuDepartment.Name" xml:space="preserve">
+    <value>rdbGrafikuDepartment</value>
+  </data>
+  <data name="&gt;&gt;rdbGrafikuDepartment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbGrafikuDepartment.Parent" xml:space="preserve">
+    <value>gpGrafikat</value>
+  </data>
+  <data name="&gt;&gt;rdbGrafikuDepartment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gpGrafikat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 10</value>
+  </data>
+  <data name="gpGrafikat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>625, 120</value>
+  </data>
+  <data name="gpGrafikat.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="gpGrafikat.Text" xml:space="preserve">
+    <value>Grafikat</value>
+  </data>
+  <data name="&gt;&gt;gpGrafikat.Name" xml:space="preserve">
+    <value>gpGrafikat</value>
+  </data>
+  <data name="&gt;&gt;gpGrafikat.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;gpGrafikat.Parent" xml:space="preserve">
+    <value>sideNavPanel6</value>
+  </data>
+  <data name="&gt;&gt;gpGrafikat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="sideNavPanel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 36</value>
+  </data>
+  <data name="sideNavPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 443</value>
+  </data>
+  <data name="sideNavPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="sideNavPanel6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel6.Name" xml:space="preserve">
+    <value>sideNavPanel6</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavPanel, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel6.Parent" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;sideNavPanel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="snMeny.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideNavItem1.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="sideNavItem3.Text" xml:space="preserve">
+    <value>Stafi</value>
+  </data>
+  <data name="sideNavItem4.Text" xml:space="preserve">
+    <value>Departamentet</value>
+  </data>
+  <data name="sideNavItem5.Text" xml:space="preserve">
+    <value>Pagesat</value>
+  </data>
+  <data name="sideNavItem6.Text" xml:space="preserve">
+    <value>Raportet</value>
+  </data>
+  <data name="sideNavItem2.Text" xml:space="preserve">
+    <value>Grafikat</value>
+  </data>
+  <data name="snMeny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="snMeny.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="snMeny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1002, 480</value>
+  </data>
+  <data name="snMeny.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="snMeny.Text" xml:space="preserve">
+    <value>sideNav1</value>
+  </data>
+  <data name="&gt;&gt;snMeny.Name" xml:space="preserve">
+    <value>snMeny</value>
+  </data>
+  <data name="&gt;&gt;snMeny.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNav, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;snMeny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;snMeny.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 296</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>Shqip</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="switchButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 4</value>
+  </data>
+  <data name="switchButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="switchButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Name" xml:space="preserve">
+    <value>switchButton1</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="columnHeader1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 17</value>
+  </metadata>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 337</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Anglisht</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1002, 480</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem1.Name" xml:space="preserve">
+    <value>sideNavItem1</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;separator1.Name" xml:space="preserve">
+    <value>separator1</value>
+  </data>
+  <data name="&gt;&gt;separator1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Separator, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem3.Name" xml:space="preserve">
+    <value>sideNavItem3</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem4.Name" xml:space="preserve">
+    <value>sideNavItem4</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem5.Name" xml:space="preserve">
+    <value>sideNavItem5</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem6.Name" xml:space="preserve">
+    <value>sideNavItem6</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;itemContainer1.Name" xml:space="preserve">
+    <value>itemContainer1</value>
+  </data>
+  <data name="&gt;&gt;itemContainer1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem2.Name" xml:space="preserve">
+    <value>sideNavItem2</value>
+  </data>
+  <data name="&gt;&gt;sideNavItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SideNavItem, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>DevComponents.AdvTree.ColumnHeader, DevComponents.DotNetBar2, Version=12.8.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
